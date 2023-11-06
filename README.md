@@ -57,40 +57,19 @@ Install the following applications on your PC before running the web app.
 
 </br>
 
-### Download or Clone app from Github:
+Pull and run a container image from Docker Hub.
 
-Go to https://github.com/VakinduPhilliam/imagemax and download or clone the app.
+In your command terminal, pull the image from Docker Hub by running the command below.
 
-</br>
-
-### Install NPM dependencies:
-
-Open the unzipped folder in your favorite code editor and install the app's npm dependency modules. 
-
-_npm install_
+_docker pull vakinduphilliam/imagemax_
 
 </br>
 
-Then install python dependencies (Make sure to have pip8 or greater installed).
+To run the container image locally, run the command below.
 
 </br>
 
-_npm run pyinstall_
-
-</br>
-
-### Running the App:
-
-To run the app, execute the command below in the Command terminal. 
-
-_node app.js_
-
-</br>
-
-You should see a message like, "Server running on port: 8080" in your command terminal if the app is running successfully.
-
-Open your browser and visit, http://localhost:8080/ to view the app.
-(You must be online for the app to fetch the Bitbucket API.)
+_docker run vakinduphilliam/imagemax_
 
 </br>
 
