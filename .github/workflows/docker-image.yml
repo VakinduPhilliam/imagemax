@@ -18,10 +18,11 @@ jobs:
       env:
         DOCKER_USER: ${{secrets.DOCKER_USER}}
         DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+        #REPO_NAME: ${{secrets.REPO_NAME}}
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag vakinduphilliam/node-test:$(date +%s)
+      run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/imagemax:$(date +%s)
       
     - name: Docker Push
       run: docker push ${{secrets.DOCKER_USER}}/imagemax
