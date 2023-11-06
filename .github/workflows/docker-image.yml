@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag vakinduphilliam/node-test:$(date +%s)
       
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/vakinduphilliam
+      run: docker push ${{secrets.DOCKER_USER}}/imagemax
