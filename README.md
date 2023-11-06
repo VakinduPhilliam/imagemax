@@ -53,6 +53,8 @@ Install the following applications on your PC before running the web app.
 
 - [Node.JS](https://nodejs.org/en/download/current/)
 
+- [Docker](https://docs.docker.com/get-docker/)
+
 </br>
 
 ### Download or Clone app from Github:
@@ -94,9 +96,7 @@ Open your browser and visit, http://localhost:8080/ to view the app.
 
 ## LIVE DEMO URLs:
 
-Visit the above URLs to see working demos.
-
-APP's DOCKER CONTAINER IMAGE URL: https://gitmax-git-vakinduphilliam-dev.apps.sandbox-m4.g2pi.p1.openshiftapps.com/
+Visit the URLs below to see working demos.
 
 LIVE WEB APP: https://imagemax.myeulome.com
 
