@@ -57,7 +57,7 @@ Install the following applications on your PC before running the web app.
 
 </br>
 
-Pull and run a container image from Docker Hub.
+Pull and run the container image from Docker Hub.
 
 In your command terminal, pull the image from Docker Hub by running the command below.
 
