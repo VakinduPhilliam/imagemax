@@ -75,7 +75,7 @@ _docker run vakinduphilliam/imagemax:tagname_
 
 </br>
 
-## LIVE DEMO URLs:
+## LIVE DEMO URL:
 
 Visit the URLs below to see working demos.
 
