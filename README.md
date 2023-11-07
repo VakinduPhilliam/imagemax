@@ -83,5 +83,5 @@ LIVE WEB APP: https://imagemax.myeulome.com
 
 </br>
 
-APP's Docker Container Image URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
+ImageMax Docker Container Image URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
 
