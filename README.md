@@ -71,8 +71,6 @@ _docker pull vakinduphilliam/imagemax:tagname_
 
 To run the container image locally, run the command below.
 
-</br>
-
 _docker run vakinduphilliam/imagemax:tagname_
 
 </br>
