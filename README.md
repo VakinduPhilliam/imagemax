@@ -81,4 +81,7 @@ Visit the URLs below to see working demos.
 
 LIVE WEB APP: https://imagemax.myeulome.com
 
+</br>
+
+APP's DOCKER CONTAINER IMAGE URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
 
