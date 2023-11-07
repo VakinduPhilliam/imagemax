@@ -6,6 +6,12 @@ on:
   pull_request:
     branches: [ main ]
 
+# Env variable
+env:
+  DOCKER_USER: ${{secrets.DOCKER_USER}}
+  DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
+  REPO_NAME: ${{secrets.REPO_NAME}}
+
 jobs:
 
   build:
@@ -15,15 +21,10 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: docker login
-      # Env variable
-      env:
-        DOCKER_USER: ${{secrets.DOCKER_USER}}
-        DOCKER_PASSWORD: ${{secrets.DOCKER_PASSWORD}}
-        #REPO_NAME: ${{secrets.REPO_NAME}}
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD 
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USER}}/imagemax:$(date +%s)
+      run: docker build . --file Dockerfile --tag $DOCKER_USER/$REPO_NAME:$(date +%s)
       
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USER}}/imagemax
+      run: docker push $DOCKER_USER/$REPO_NAME 
