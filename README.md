@@ -43,7 +43,7 @@ _Image Max Interface:_
 
 - Pip8 or greater - is used for managing python dependency installations.
 
-- Docker Hub - Used to build Image.
+- Docker Hub - Used to build container Image.
 
 <br/>
 
