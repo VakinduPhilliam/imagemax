@@ -57,7 +57,7 @@ Install the following applications on your PC before running the web app.
 
 </br>
 
-APP's DOCKER CONTAINER IMAGE URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
+IMAGEMAX's DOCKER CONTAINER IMAGE URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
 
 </br>
 
