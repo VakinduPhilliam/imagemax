@@ -57,11 +57,13 @@ Install the following applications on your PC before running the web app.
 
 </br>
 
+APP's DOCKER CONTAINER IMAGE URL: https://hub.docker.com/repository/docker/vakinduphilliam/imagemax/general
+
 Pull and run the container image from Docker Hub.
 
 In your command terminal, pull the image from Docker Hub by running the command below.
 
-_docker pull vakinduphilliam/imagemax_
+_docker pull vakinduphilliam/imagemax:tagname_
 
 </br>
 
@@ -69,7 +71,7 @@ To run the container image locally, run the command below.
 
 </br>
 
-_docker run vakinduphilliam/imagemax_
+_docker run vakinduphilliam/imagemax:tagname_
 
 </br>
 
@@ -78,4 +80,5 @@ _docker run vakinduphilliam/imagemax_
 Visit the URLs below to see working demos.
 
 LIVE WEB APP: https://imagemax.myeulome.com
+
 
